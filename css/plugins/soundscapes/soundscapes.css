@@ -1,0 +1,22 @@
+.status-bar-item.plugin-soundscapes {
+  font-size: 20px;
+  font-style: italic;
+  color: #88CCAA;
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 275px;
+  transform: scale(1.00, 1.00);
+  
+  button {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 24px;
+    height: 15px;
+    transform: scale(1.35, 1.35) translate(6px, 0px);
+    color: #DD5500;
+    background-color: #000000;
+  }
+  .soundscapesroot-nowplaying-text {
+    animation: marquee 7s linear infinite;
+  }
+}
